@@ -1,0 +1,124 @@
+body{
+    background: black;
+}
+*{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.box{
+    height: 667px;
+    width: 500px;
+    background: rgba(161, 161, 245, 0.842);
+    margin-left: 65vh;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+}
+.num{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+.palpite{
+    margin-top: 250px;
+    margin-left: 120px;
+    position: absolute;
+}
+.chao{
+    height: 56px;
+    width: 75vh;
+    margin-top: 611px;
+    position: absolute;
+}
+.nuvem{
+    height: 130px;
+    width: 170px;
+}
+.game-number{
+    display: grid;
+    place-items: center;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 15%;
+    font-size: 35px;
+    color: #8b0202;
+    background: url("assets/oie_transparent-removebg-preview.png");
+    background-size: 100%;
+    width: 110px;
+    height: 80px;
+}
+.planta{
+    position: absolute;
+    height: 60px;
+    margin-top: 550px;
+}
+input{
+    position: absolute;
+    margin-top: 65vh;
+    margin-left: -130px;
+    height: 35px;
+    width: 65vh;
+    background: transparent;
+    border-radius: 2px;
+    border-color: white;
+    border-width: 2px;
+    border-style: double;
+}
+.play{
+    position: absolute;
+    margin-top: 38%;
+    margin-left: -10%;
+    height: 55px;
+    width: 200px;
+    background-color: green;
+    color: white;
+    font-size: 17px;
+    box-shadow: 4px 4px 0px black;
+    border-width: 0px;
+    cursor: pointer;
+    text-shadow: 2px 2px 1px black;
+}
+.reset{
+    position: absolute;
+    margin-top: 38%;
+    margin-left: 100px;
+    height: 55px;
+    width: 200px;
+    background-color: rgb(36, 39, 223);
+    color: white;
+    font-size: 17px;
+    box-shadow: 4px 4px 0px black;
+    border-width: 0px;
+    cursor: pointer;
+    text-shadow: 2px 2px 1px black;
+}
+.PrimeiraCamada{
+    position: absolute;
+    margin-left: 59vh;
+    height: 20px;
+    width: 104px;
+    background-color: transparent;
+    border: 3px solid #fff;
+    z-index: 2;
+}
+.SegundaCamada{
+    transition: width, 0.2s;
+    margin-top: -1px;
+    margin-left: -1px;
+    position: fixed;
+    height: 15px;
+    width: 100px;
+    background: green;
+    max-width: 100px;
+    min-width: 0;
+}
+.NumeroVida{
+    font-size: 12px;
+    margin-left: 31px;
+    margin-top: 3px;
+}
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#1 Game Guessing Mario</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans+TC:wght@700&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="box">
+        <p class="num">Escolha um Numero <br> 1 a 10</p>
+        <img src="assets/chao.png" class="chao">
+        <img src="assets/nuvem.png" class="nuvem">
+        <div  class="PrimeiraCamada">    
+            <div class="SegundaCamada" id="life">
+                <div class="NumeroVida" id="NumeroVida">
+                    <p>100%</p>
+                </div>
+            </div>
+        </div>
+        <div class="game-number" id="res">
+            <section>
+                <p>?</p>
+            </section></div>
+        <section id="palpite" class="palpite">
+            <p  >Qual e Seu palpite?</p>
+        </section>
+        <img src="assets/assetsmario__1_-removebg-preview (1).png" class="planta">
+        <input type="number" id="usuario">
+        <button class="play" onclick="play()">Play</button>
+        <button class="reset" onclick="reset()">Reset</button>
+    </div>
+</body>
+</html>
